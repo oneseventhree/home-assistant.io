@@ -19,7 +19,7 @@ To enable this integration, add the following lines to your `configuration.yaml`
 ```yaml
 cover:
   - platform: brunt
-    username: BRUNT_USERNAME
+    username: BRUNT_EMAIL_ADDRESS
     password: BRUNT_PASSWORD
 ```
 
@@ -30,7 +30,7 @@ name:
   default: "brunt blind engine"
   type: string
 username:
-  description: Account username of your Brunt app
+  description: Account email address of your Brunt app
   required: true
   type: string
 password:
